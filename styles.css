@@ -1,0 +1,19 @@
+/* selector */
+
+/* Element seector */
+
+p{
+    color: rgb(177, 29, 29);
+}
+#p4{
+    color:blue
+}
+
+.green-text{
+    color:rgb(0, 128, 0);
+}
+
+.underline {
+    text-decoration:underline;
+    color: black;
+}
