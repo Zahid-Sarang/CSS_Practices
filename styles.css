@@ -2,7 +2,7 @@
 
 /* Element seector */
 
-p{
+/* p{
     color: rgb(177, 29, 29);
 }
 #p4{
@@ -16,4 +16,18 @@ p{
 .underline {
     text-decoration:underline;
     color: black;
+} */
+
+/* RGBA is used to transparent 0.0 to 1.0 */
+
+/* Background  */
+
+#bg {
+  
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:contain;
+    
+
 }
