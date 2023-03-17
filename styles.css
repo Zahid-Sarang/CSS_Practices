@@ -5,3 +5,28 @@
 /* 3 Class Selector */
 /* 4 Grouping Selector */
 
+/* Position  */
+/* absolute,relative,static,fixed,sticky */
+.container {
+  border: 2px solid black;
+  background-color: aqua;
+  height: 34440px;
+}
+
+.box {
+  border: 2px solid rgb(217, 117, 117);
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+  display: inline-block;
+}
+#box3 {
+  /* relative: Position the Element relative to ists normal position and will leave a gap at its normal position; */
+  /* absolute: Position the Element relative to the postion of its first parents */
+  /* fixed: Position the Element relative to the browser window */
+
+
+  position: sticky;
+  top: 40px;
+
+}
