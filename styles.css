@@ -7,7 +7,7 @@
 
 /* Position  */
 /* absolute,relative,static,fixed,sticky */
-.container {
+/* .container {
   border: 2px solid black;
   background-color: aqua;
   height: 34440px;
@@ -20,13 +20,37 @@
   margin: 2px;
   display: inline-block;
 }
-#box3 {
-  /* relative: Position the Element relative to ists normal position and will leave a gap at its normal position; */
-  /* absolute: Position the Element relative to the postion of its first parents */
-  /* fixed: Position the Element relative to the browser window */
-
-
+#box3 { */
+/* relative: Position the Element relative to ists normal position and will leave a gap at its normal position; */
+/* absolute: Position the Element relative to the postion of its first parents */
+/* fixed: Position the Element relative to the browser window */
+/* 
   position: sticky;
   top: 40px;
+} */
 
+
+/* Visibility And Z-Index */
+
+/* .box{
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
 }
+#box1{
+    position: relative;
+    top: 49px;
+    z-index: -36;
+    background-color: green;}
+#box2{
+    position: relative;
+    top: 14px;
+    background-color: red;
+    
+    z-index: -100;
+}
+#box3{background-color: blue;}
+#box4{background-color: yellow;} */
+
+
+/* Flex Box */
