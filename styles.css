@@ -90,3 +90,69 @@
     flex-shrink: 2; */
     /* flex-basis: 320px;
 } */
+
+/* RELATIVE UNITS AND RESPONSIVE DESIGN */
+
+/* 1 Setting up the viewport */
+/* 2 Use max-width/max-height */
+/* 3 Using Media Queries */
+/* 4 Using rem/vh/vw units over pixels */
+/* html{
+    font-size: 25px;
+}
+.container{ */
+    /* width: 400px; */
+    /* height: 300px; */
+    /* width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    border: 2px solid red;
+}
+h1{
+    text-align: center;
+}
+#first{ */
+    /* font-size: 3rem;
+    padding: 3rem; */
+/* }
+#second{
+
+} */
+
+/* MEDIA QUERIES */
+
+.box{
+    font-size: 72px;
+    text-align: center;
+    background-color: rgb(113, 136, 183);
+    color: white;
+    display: none;
+}
+
+@media (max-width:300px){
+    #box1{
+        display: block;
+        background: rgb(57, 180, 129);
+    }
+}
+
+@media (max-width:500px) and (min-width:300px){
+    #box2{
+        display: block;
+        background-color: rgb(70, 103, 186);
+    }
+}
+
+@media (max-width:800px) and (min-width:500px){
+    #box3{
+        display: block;
+        background-color: rgb(155, 192, 25);
+    }
+}
+
+@media  (min-width:800px){
+    #box4{
+        display: block;
+        background-color: rgb(33, 10, 88);
+    }
+}
