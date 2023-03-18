@@ -221,3 +221,37 @@ h1{
 #box:hover {
   background-color: rgb(4, 51, 67);
 } */
+
+/* TRANSFORM */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 80vh;
+    background-color: rgb(25, 131, 131);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(188, 199, 102);
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 25vh;
+    width: 25vw;
+    transition: all 2s ease-in-out;
+}
+
+.box:hover{
+    /* transform: rotate(360deg); */
+    /* transform: skew(40deg); */
+    /* transform: scale(2); */
+    /* transform: translateX(123px);
+    transform: translateY(123px); */
+    transform: translate(123px,123px);
+}
