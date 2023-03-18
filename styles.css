@@ -29,7 +29,6 @@
   top: 40px;
 } */
 
-
 /* Visibility And Z-Index */
 
 /* .box{
@@ -52,7 +51,6 @@
 #box3{background-color: blue;}
 #box4{background-color: yellow;} */
 
-
 /* Flex Box */
 
 /* .container{
@@ -60,14 +58,14 @@
     width: 100%;
     border: 2px solid black;
     display: flex; */
-    /* flex-direction: row; */
-    /* flex-direction: column-reverse;
+/* flex-direction: row; */
+/* flex-direction: column-reverse;
     flex-direction: row-reverse; */
-    /* flex-wrap: wrap; */
-    /* flex-flow: row wrap; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    /* align-items: flex-start;
+/* flex-wrap: wrap; */
+/* flex-flow: row wrap; */
+/* justify-content: space-around; */
+/* align-items: center; */
+/* align-items: flex-start;
     align-items: flex-end;
     align-items: stretch; */
 /* }
@@ -81,14 +79,14 @@
 }
 
 #item1{ */
-    /* order: 2; */
-    /* flex-grow: 2; */
+/* order: 2; */
+/* flex-grow: 2; */
 /* }
 #item2{ */
-    /* order: 2; */
-    /* flex-grow: 3;
+/* order: 2; */
+/* flex-grow: 3;
     flex-shrink: 2; */
-    /* flex-basis: 320px;
+/* flex-basis: 320px;
 } */
 
 /* RELATIVE UNITS AND RESPONSIVE DESIGN */
@@ -101,9 +99,9 @@
     font-size: 25px;
 }
 .container{ */
-    /* width: 400px; */
-    /* height: 300px; */
-    /* width: 100vw;
+/* width: 400px; */
+/* height: 300px; */
+/* width: 100vw;
     height: 100vh;
     font-size: 10px;
     border: 2px solid red;
@@ -112,7 +110,7 @@ h1{
     text-align: center;
 }
 #first{ */
-    /* font-size: 3rem;
+/* font-size: 3rem;
     padding: 3rem; */
 /* }
 #second{
@@ -156,7 +154,6 @@ h1{
         background-color: rgb(33, 10, 88);
     }
 } */
-
 
 /* KeyFrames And Animation */
 
@@ -206,4 +203,21 @@ h1{
         width:1400px
     }
     
+} */
+
+/* Transition */
+
+/* #box {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(77, 160, 136);
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+#box:hover {
+  background-color: rgb(4, 51, 67);
 } */
